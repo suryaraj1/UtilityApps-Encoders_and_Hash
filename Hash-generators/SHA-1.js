@@ -5,7 +5,7 @@ const navBar = document.querySelector('header');
 const wrapperOutput = document.querySelector('.output');
 const accordion = document.querySelectorAll('.contentBox');
 
-const getHash = (url) => CryptoJS.MD5(url);
+const getHash = (url) => CryptoJS.SHA1(url);
 
 window.onscroll = () => {
     const sticky = navBar.offsetTop;
