@@ -17,10 +17,10 @@
                 <li><a class="link" href="#">Encoders/Decoders <i class="fas fa-sort-down"></i></a>
                     <div class="sub-menu1">
                         <ul>
-                            <li><a href="./urlEncoder.html">URL Encoder</a></li>
-                            <li><a href="./urlDecoder.html">URL Decoder</a></li>
-                            <li><a href="./base64Encoder.html">Base-64 Encoder</a></li>
-                            <li><a href="#">Base-64 Decoder</a></li>
+                            <li><a href="/Encoders/urlEncoder.html">URL Encoder</a></li>
+                            <li><a href="/Encoders/urlDecoder.html">URL Decoder</a></li>
+                            <li><a href="/Encoders/base64Encoder.html">Base-64 Encoder</a></li>
+                            <li><a href="/Encoder/base64Decoder.html">Base-64 Decoder</a></li>
                         </ul>
                     </div>
                 </li>
@@ -40,13 +40,13 @@
 
     <!-- main section -->
     <div class="title-wrapper">
-        <h1 class="title">URL Encoder</h1>
-        <h3 class="sub-title">Encode any URL</h3>
+        <h1 class="title">MD-5 Hash Generator</h1>
+        <h3 class="sub-title">Generate MD-5 Hash of any text</h3>
     </div>
 
     <div class="wrapper">
         <div class="input">
-            <textarea class="text-input" cols="40" rows="10" placeholder="Enter the text you want to encode"></textarea>
+            <textarea class="text-input" cols="40" rows="10" placeholder="Enter the text you want to hash"></textarea>
         </div>
 
         <button class="encoder">
@@ -71,7 +71,7 @@
             <div class="contentBox">
 
                 <div class="label-1">
-                    <div class="status-circle"></div>What is URL Encoding?
+                    <div class="status-circle"></div>What is MD-5 hashing?
                 </div>
 
                 <div class="content">
@@ -83,7 +83,7 @@
             <div class="contentBox">
 
                 <div class="label-1">
-                    <div class="status-circle"></div>When and why URL Encoding?
+                    <div class="status-circle"></div>When and why MD-5 Hashing?
                 </div>
 
                 <div class="content">
@@ -95,7 +95,7 @@
             <div class="contentBox">
 
                 <div class="label-1">
-                    <div class="status-circle"></div>Encoding a piece of text
+                    <div class="status-circle"></div>Hashing using MD-5
                 </div>
 
                 <div class="content">
@@ -106,8 +106,8 @@
         </div>
     </div>
 
-
-    <script src="./urlEncoder.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+    <script src="./md5.js"></script>
 </body>
 
 </html>
