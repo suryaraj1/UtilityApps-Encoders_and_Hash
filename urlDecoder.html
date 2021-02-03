@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>Utility-apps1</title>
+</head>
+
+<body>
+    <header>
+        <h2>Utility Apps <i class="fas fa-wrench"></i></h2>
+        <nav>
+            <ul class="nav__links">
+                <li><a class="link" href="#">Encoders/Decoders <i class="fas fa-sort-down"></i></a>
+                    <div class="sub-menu1">
+                        <ul>
+                            <li><a href="./urlEncoder.html">URL Encoder</a></li>
+                            <li><a href="./urlDecoder.html">URL Decoder</a></li>
+                            <li><a href="./base64Encoder.html">Base-64 Encoder</a></li>
+                            <li><a href="./base64Decoder.html">Base-64 Decoder</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a class="link" href="#">Hash Generators <i class="fas fa-sort-down"></i></a>
+                    <div class="sub-menu1">
+                        <ul>
+                            <li><a href="#">MD5 Hash Generator</a></li>
+                            <li><a href="#">SHA-1 Hash Generator</a></li>
+                            <li><a href="#">SHA-256 Hash Generator</a></li>
+                            <li><a href="#">SHA-512 Hash Generator</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- main section -->
+    <div class="title-wrapper">
+        <h1 class="title">URL Decoder</h1>
+        <h3 class="sub-title">Decode any URL</h3>
+    </div>
+
+    <div class="wrapper">
+        <div class="input">
+            <textarea class="text-input" cols="40" rows="10" placeholder="Enter the text you want to encode"></textarea>
+        </div>
+
+        <button class="encoder">
+            Encode
+            <i class="fas fa-arrow-right"></i>
+        </button>
+
+        <div class="output">
+            <div class="label">Result</div>
+            <textarea name="" id="" cols="40" rows="10" class="text-output"></textarea>
+        </div>
+
+        <br>
+
+        <!-- information regarding encoder -->
+    </div>
+
+    <div class="accordion">
+
+        <div class="sub-information">
+
+            <div class="contentBox">
+
+                <div class="label-1">
+                    <div class="status-circle"></div>What is URL Decoding?
+                </div>
+
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur labore magni praesentium
+                        facilis optio distinctio hic. Laboriosam officia labore beatae!.</p>
+                </div>
+            </div>
+
+            <div class="contentBox">
+
+                <div class="label-1">
+                    <div class="status-circle"></div>When and why URL Decoding?
+                </div>
+
+                <div class="content">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis laborum earum soluta ex similique
+                        iste distinctio cupiditate, eligendi vitae esse?</p>
+                </div>
+            </div>
+
+            <div class="contentBox">
+
+                <div class="label-1">
+                    <div class="status-circle"></div>Decoding a piece of text
+                </div>
+
+                <div class="content">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis laborum earum soluta ex similique
+                        iste distinctio cupiditate, eligendi vitae esse?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./urlDecoder.js"></script>
+</body>
+
+</html>
